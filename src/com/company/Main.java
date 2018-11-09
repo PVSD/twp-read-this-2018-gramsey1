@@ -1,6 +1,8 @@
 package com.company;
 import java.util.*;
 import java.io.*;
+
+
 public class Main {
 
     public static void main(String[] args) throws IOException {
@@ -17,12 +19,10 @@ public class Main {
                 maxIndx++;
                 text[maxIndx] = sf.nextLine();
             }
-//maxIndx is now the highest index of text[], -1 if no text lines
-            sf.close(); //We opened a file above so close it when finished.
-            for (int j = 0; j <= maxIndx; j++) {
-                System.out.println(text[j]);
-            }
+            System.out.println(text[1]);
+
         }
     }
-    }
+}
+
 
